@@ -16,6 +16,7 @@
 
 - [Overview](#overview)
 - [Beta](#beta)
+- [Technologies](#technologies)
 - [License](#license)
 
 ## Overview
