@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="backdrop-blur-sm flex justify-between p-8">
       <div></div>
-      <p className="font-medium"> Kodis | All rights reserved</p>
+      <p className="font-medium"> Kodis | All rights reserved.</p>
       <a href="">
         <svg
           xmlns="http://www.w3.org/2000/svg"

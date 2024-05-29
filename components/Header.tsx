@@ -10,7 +10,7 @@ export default function Header() {
         src={k}
         alt="Kodis Logo"
       />
-      <Button className="rounded-full font-bold">Join Waitlist</Button>
+      <Button className="rounded-full font-bold w-40">Join Waitlist</Button>
     </section>
   );
 }
