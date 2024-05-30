@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import png from "@/public/pngwing.com.png";
+import k from "@/public/k.jpg";
 
 export default function Home() {
   return (
-    <div className="h-screen">
+    <div className="h-full">
       <h1 className="font-bold text-7xl text-center">
         Unleash your inspiration for
       </h1>
@@ -17,9 +18,15 @@ export default function Home() {
           Join Waitlist
         </Button>
       </div>
-      <div className="flex justify-center mt-8">
-        <Image className="" src={png} alt="Tela de iphone" />
+      <div className="relative flex justify-center mt-8 items-end">
+        <Image src={png} alt="Tela de iphone" />
+        <Image
+          className="absolute inset-y-2/4 rounded-full size-40 animate-pulse"
+          src={k}
+          alt="Kodis Logo"
+        />
       </div>
     </div>
   );
+  //absolute inset-y-2/4 font-bold
 }
