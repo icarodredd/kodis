@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 export default function Header() {
   return (
-    <section className="flex justify-between p-8">
+    <section className="flex justify-between p-8 items-center">
       <Image
         className="rounded-full size-14 shadow-xl hover:shadow-none"
         src={k}

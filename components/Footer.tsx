@@ -1,8 +1,6 @@
-import Image from "next/image";
-
 export default function Footer() {
   return (
-    <footer className="flex justify-between p-8 h-10 items-center">
+    <footer className="flex justify-between p-6 h-2 items-center">
       <div></div>
       <p className="font-medium"> Kodis | All rights reserved.</p>
       <a href="">

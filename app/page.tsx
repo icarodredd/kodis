@@ -28,5 +28,4 @@ export default function Home() {
       </div>
     </div>
   );
-  //absolute inset-y-2/4 font-bold
 }
