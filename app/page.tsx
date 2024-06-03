@@ -5,12 +5,14 @@ import k from "@/public/k.jpg";
 
 export default function Home() {
   return (
-    <div className="h-full">
-      <h1 className="font-bold text-7xl text-center">
+    <div className="h-full max-lg:mt-8">
+      <h1 className="font-bold text-7xl text-center max-lg:text-3xl">
         Unleash your inspiration for
       </h1>
-      <h1 className="font-bold text-7xl text-center">new projects</h1>
-      <p className="font-medium text-gray-500 text-center mt-12 text-xl">
+      <h1 className="font-bold text-7xl text-center max-lg:text-3xl">
+        new projects
+      </h1>
+      <p className="font-medium text-gray-500 text-center mt-12 text-xl max-lg:text-sm">
         Say goodbye to the lack of ideas and references for your projects.
       </p>
       <div className="flex justify-center">

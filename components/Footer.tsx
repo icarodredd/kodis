@@ -1,10 +1,11 @@
 export default function Footer() {
   return (
-    <footer className="flex justify-between p-6 h-2 items-center">
+    <footer className="flex justify-between p-6 items-center max-lg:p-1">
       <div></div>
-      <p className="font-medium"> Kodis | All rights reserved.</p>
+      <p className="font-medium max-lg:text-xs">Kodis | All rights reserved.</p>
       <a href="">
         <svg
+          className="max-lg:size-6"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 30 30"
           width="30px"

@@ -4,13 +4,15 @@ import { Button } from "./ui/button";
 
 export default function Header() {
   return (
-    <section className="flex justify-between p-8 items-center">
+    <section className="flex justify-between p-8 items-center max-lg:h-10">
       <Image
-        className="rounded-full size-14 shadow-xl hover:shadow-none"
+        className="rounded-full size-14 shadow-xl hover:shadow-none max-lg:size-10"
         src={k}
         alt="Kodis Logo"
       />
-      <Button className="rounded-full font-bold w-40">Join Waitlist</Button>
+      <Button className="rounded-full font-bold w-40 max-lg:w-24 max-lg:text-xs">
+        Join Waitlist
+      </Button>
     </section>
   );
 }
