@@ -1,6 +1,5 @@
 import Image from "next/image";
 import k from "@/public/k.jpg";
-import { Button } from "./ui/button";
 
 export default function Header() {
   return (
