@@ -34,10 +34,14 @@ export default function WaitlistModal({ setClick }: any) {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
-    console.log(values);
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    const res = await fetch("http://localhost:3000/api", {
+      method: "POST",
+      body: JSON.stringify(values),
+      headers: {
+        "content-type": "application/json",
+      },
+    });
   }
 
   return (
@@ -65,9 +69,6 @@ export default function WaitlistModal({ setClick }: any) {
                     <FormControl>
                       <Input placeholder="Type here..." {...field} />
                     </FormControl>
-                    <FormDescription>
-                      You will receive a email after join waitlist.
-                    </FormDescription>
                     <FormMessage />
                   </FormItem>
                 )}
