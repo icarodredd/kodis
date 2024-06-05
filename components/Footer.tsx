@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="flex justify-between p-6 items-center max-lg:p-1">
       <div></div>
       <p className="font-medium max-lg:text-xs">Kodis | All rights reserved.</p>
-      <a href="">
+      <a href="https://github.com/icarodredd/kodis">
         <svg
           className="max-lg:size-6"
           xmlns="http://www.w3.org/2000/svg"
