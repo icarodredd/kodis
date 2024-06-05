@@ -38,7 +38,7 @@ export default function WaitlistModal({ setClick }: any) {
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    const res = await fetch("http://localhost:3000/api", {
+    const res = await fetch("https://kodis-nu.vercel.app/api", {
       method: "POST",
       body: JSON.stringify(values),
       headers: {
